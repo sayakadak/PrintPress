@@ -1,0 +1,559 @@
+*{
+    margin: 0px;
+    }
+    
+    /* navbar section start */
+    .navbar{
+        background-color: white;
+    }
+    .navbar-logo{
+        width: 100%;
+        height: 100%;
+    }
+    .nav-link{
+        color: black !important;
+        font-size: 20px !important;
+    }
+    .navbar-toggler{
+        background-color: white !important;
+    }
+    .navbar-nav{
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+    .form-control{
+        width:200px !important;
+    }
+    /* navbar section end */
+
+    /* banner start */
+    .banner{
+        width: 100%;
+        height: 650px;
+    }
+    .banner .banner-image{
+        width: 100%;
+        height: 650px;
+        background-position: 100%;
+    }
+    .banner-main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:-450px;
+    }
+    .banner-para{
+        font-size: 20px;
+        color: rgb(125, 124, 121);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+    .banner-title{
+        font-size: 70px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 900;
+        font-style: italic;
+        text-align: center;
+        color: white;
+    }
+    .common-button{
+        text-transform: uppercase;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+        background-color: rgb(3, 54, 99);
+        border: 1px solid rgb(3, 54, 99);
+        color: white;
+        border-radius: 25px;
+        padding: 10px 30px;
+        margin-top: 15px;
+
+    }
+    /* banner end */
+
+    /* fast card sction start */
+    .fast-card{
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        /* background-color: aquamarine; */
+    }
+    .common-title-box{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .common-title{
+        font-size: 40px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .common-link{
+        color: rgb(249, 36, 153);
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    .common-card-main-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .common-card-sub-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        width: 300px;
+    }
+    .common-card-image{
+        height: 400px;
+        width: 100%;
+    }
+    .common-card-name1{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(153, 153, 153);
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+    .common-card-name2{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .common-card-price{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .common-card-price-span{
+        color: red;
+    }
+
+    /* fast card section end */
+
+    /* second cad sections start */
+    .second-card{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        /* background-color: rgb(171, 228, 209); */
+    }
+    .second-card .item{
+        box-shadow: 5px 5px 10px rgba(201, 199, 199, 0.663);
+    }
+    .second-card-image{
+        width: 100%;
+        height: 200px;
+    }
+    .second-card-name{
+        padding: 20px;
+        background-color: rgb(245, 239, 251);
+        text-align: center;
+    }
+    /* second card section end */
+
+    /* about section start */
+    .about{
+        width: 100%;
+        height: auto;
+        background-color: wheat;
+        padding-bottom: 100px;
+    }
+    .about-main-div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 100px;  
+    }
+    .about-sub-div{
+        width: 35%;
+        /* background-color: teal; */
+    }
+    .left-side{
+        height: 600px;
+    }
+    .about-sub-div-image{
+        width: 100%;
+        height: 100%;
+    }
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        height: auto !important;
+    }
+    .about-sub-div-title{
+        font-size: 55px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .about-sub-div-para1{
+        font-size: 22px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(99, 100, 101);
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .about-sub-div-para2{
+        font-size: 17px;
+        margin-right: 80px;
+        margin-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+    .about-sub-div-para3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    /* about section end */
+
+    /* third card section start */
+    .third-card{
+        width: 100%;
+        height: auto;
+        padding-bottom: 200px;
+        padding-top: 50px;
+        background-image: url(../image/third-card/background.png);
+        background-size: cover;
+        background-position: 100%;
+    }
+    .third-image{
+        height: 300px;
+    }
+    .third-title-box{
+        padding-top: 70px;
+        align-items: center;
+    }
+    .third-title{
+        color: white;
+    }
+    .third-card-title-para{
+        color: white;
+        font-size: 20px;
+    }
+    .third-card-common-link{
+        color: white;
+    }
+    .third-class-image{
+        width: 100%;
+
+    }
+    .third-card-h4-title{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+        font-style: italic !important;
+        color: rgb(189, 189, 189);
+    }
+
+    /* third card section end */
+
+    /* forth card start */
+    .forth-card{
+        width: 100%;
+        height: auto;
+        background-color: #5b9894;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .forth-box{
+        align-items: center;
+    }
+    .forth-card-email{
+        width: 350px;
+        height: 50px;
+        border-radius: 30px;
+        padding-left: 40px;
+        border: 1px solid white;
+        
+    }
+    .forth-cad-button{
+        position:absolute;
+        z-index: 10;
+        margin-left: -117px;
+        margin-top: 7px;
+        border-radius: 30px;
+        border: 1px solid #6e7780;
+        padding: 5px 20px;
+        background-color: #6e7780;
+    }
+
+    /* forth card end */
+
+    /* fifth card start */
+    .fifth-card{
+        width: 100%;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    .fifth-card-main-shadow{
+        box-shadow: 7px 7px 10px rgb(186, 185, 185);
+    }
+
+    /* fifth card end */
+
+    /* six card start */
+
+    .six-card{
+        width: 100%;
+        height: auto;
+        background-color: slategray;
+        padding-top: 70px;
+    }
+    .six-card-sub-div{
+        width: 400px;
+    }
+    .six-card-image{
+        height: 400px;
+    }
+    .six-card-sub-title{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 22px;
+        padding:30px 40px;
+        letter-spacing: .7px;
+        background-color: white;
+    }
+
+    /* six cad end */
+
+    /* seven card start */
+    .seven-card{
+        width: 100%;
+        height: auto;
+        padding-bottom: 140px;
+        padding-top: 200px;
+        margin-top: -120px;
+        background-color: #d9dbcd;
+    }
+    .seven-image{
+        height: 300px;
+    }
+
+    /* seven card end */
+
+    /* footer section start */
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-top: 110px;
+        padding-bottom: 150px;
+    }
+    .footer-main-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .foot-sub-1{
+        width: 40%;
+    }
+    .footer-child-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-para{
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer-email{
+        color: red;
+    }
+    .social-icon{
+        font-size: 25px;
+        color: rgb(218, 59, 168);
+    }
+    .social-icon-box{
+        margin-left: 20px;
+    }
+    .social-icon-box:hover{
+        background-color: rgb(57, 242, 57);
+        border-radius: 50%;
+    }
+
+    /* footer section end */
+
+    /* designer contact Section start */
+/* Two Css command use in Inline section */
+.designer{
+    padding-top: 20px;
+    background-color: #6e7780;
+  }
+  
+  .designer-sub-div2{
+    margin-top: -20px;
+  }
+  .designer-comment .designer-text{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  .designer-text a{
+    text-decoration: none;
+    color: rgb(237, 30, 151);
+  }
+  .designer-text a:hover{
+    color: white;
+  
+  }
+  .designer-social-media{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+  }
+  .designer-social-media a{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 7px;
+  }
+  .designer-social-media a:hover{
+    color: aqua;
+  }
+  
+  /* designer contact Section end */
+
+  /* scrol barsection start */
+  .scrole{
+   
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    bottom: 20px;
+    z-index: 100;
+}
+.scrole .scrole-img1{
+    width: 55px;
+    height: 55px;   
+ }
+.scrole .scrole-img2{
+    width: 35px;
+    height: 35px;
+    margin-left: -45px;
+    margin-top: 10px;
+    position: absolute;
+}
+  /* scrol bar section end */
+
+
+
+    /* media quary satrt */
+
+    @media (min-width:992px) and (max-width:1399px) {
+        .common-card-main-div{
+            justify-content: space-evenly;
+        }
+    }
+
+    @media (min-width:992px) and (max-width:1199px) {
+        .about-sub-div{
+            width: 45%;
+        }
+        .about-sub-div-para2{
+            margin-right: 40px;
+        }
+        .foot-sub-1{
+            width: 45%;
+        }
+    }
+
+    @media (min-width:768px) and (max-width:991px) {
+        .common-card-main-div{
+            justify-content: space-evenly;
+        }
+        .about-sub-div{
+            width: 45%;
+        }
+        .left-side{
+            height: 670px;
+        }
+        .about-sub-div-para2{
+            margin-right: 0px;
+        }
+    }
+
+    @media (max-width:767px) {
+        .banner{
+            height: 600px;
+        }
+        .banner .banner-image{
+            height: 600px;
+        }
+        .banner-main-div{
+            margin-top: -400px;
+        }
+        .banner-title{
+            color: rgb(232, 33, 123);
+            font-size: 45px;
+        }
+        .common-card-main-div{
+            justify-content: center;
+        }
+        .about-main-div{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .about-sub-div{
+            width: 80%;
+            margin-top: 30px;
+        }
+        .about-sub-div-para2{
+            margin-right: 20px;
+        }
+        .forth-title{
+            padding-left:20px;
+            padding-right: 20px;
+            text-align: center;
+        }
+        .forth-box{
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .footer-main-div{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .foot-sub-1{
+            width: 100%;
+        }
+        .footer-child-div{
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .social-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        
+
+
+        
+    }
+
+
+
+
+    /* media quary end */
